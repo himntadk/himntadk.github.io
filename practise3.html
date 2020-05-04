@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+	*
+{
+	padding:0;
+	margin:0;
+}
+body
+{
+	background-image: url(Desktop2.jpg);
+	height:100%;
+	width:100%;
+	background-size: cover;
+}
+.row
+{
+	width:50%;
+	text-align: right;
+	margin:4% 45%;
+	display:flex;
+	flex-wrap:wrap;
+    align-items:right;
+    background: none;
+}
+.col
+{
+flex-basis:50%;
+cursor: pointer;
+text-align: center;
+overflow:hidden;
+}
+.col img
+{
+	width:100%;
+	cursor:pointer;
+	transition:1s;
+}
+.col h2
+{
+color:white;
+text-shadow: 0 0 20px blue;
+}
+.col h3
+{
+	margin:2px auto;
+}
+.mac
+{
+	opacity:0;
+}
+.social-link .fa
+{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	margin:10px 3px;
+	border:1px solid green;
+	transition:transform 0.5s;
+}
+.col .fa:hover
+{
+	background: black;
+	color:white;
+	transform:translateY(-7px);
+}
+.col:hover img
+{
+	transform:scale(1.8);
+}
+.col:hover h3
+{
+	transform:scale(2.0);
+}
+.col h4
+{
+	color:white;
+}
+.col h5
+{
+	color:white;
+}
+.col .mac:hover
+{
+	opacity:1;
+}
+.mad
+{
+	padding:0;
+	margin:0;
+    display: flex;
+    margin-top:-420px;
+    margin-left:50px;
+}
+.mad h1
+{
+	margin:0;
+	padding:0;
+	color:black;
+}
+.mad h1 span
+{
+display:table-cell;
+margin:0;
+padding: 0;
+animation: anim 4s linear infinite;
+}
+.mad h1 span:nth-child(1)
+{
+	animation-delay: 0s;
+}
+.mad h1 span:nth-child(2)
+{
+	animation-delay: 0.5s;
+}
+.mad h1 span:nth-child(3)
+{
+	animation-delay: 1s;
+}
+.mad h1 span:nth-child(4)
+{
+	animation-delay: 1.5s;
+}
+.mad h1 span:nth-child(5)
+{
+	animation-delay: 2s;
+}
+.mad h1 span:nth-child(6)
+{
+	animation-delay: 2.5s;
+}
+.mad h1 span:nth-child(7)
+{
+	animation-delay: 3s;
+}
+.mad h1 span:nth-child(8)
+{
+	animation-delay: 3.5s;
+}
+@keyframes anim 
+{
+	0%,100%
+	{
+     color:green;
+     filter:blur(2px);
+     text-shadow:0 0 10px green,
+                 0 0 20px green,
+                 0 0 40px green,
+                 0 0 80px green,
+                 0 0 120px green,
+                 0 0 200px green,
+                 0 0 300px green,
+                 0 0 400px green,
+	}
+	10%,90%
+	{
+     color:black;
+     filter:blur(0);
+     text-shadow: none;
+	}
+}
+.mad h4
+{
+	color:white;
+	margin-top:36px;
+	margin-left:-160px;
+}
+button
+{
+	background: none;
+	border:1px solid green;
+	font-family:Bradley Hand ITC;
+	font-size:20px;
+	padding:3px;
+	margin-top:370px;
+	margin-left:20px;
+}
+button a
+{
+	text-decoration:none;
+	color:green;
+}
+</style>
+<script>
+	var input=prompt("Enter the entry code");
+	while(input!=="jamtech")
+	{
+		alert("Incorrect entry code! Try again!This page requires permission from the user!");
+
+		var input=prompt("Enter the entry code");
+	}
+	alert("Welcome! Meet our charming leader!")
+</script>
+<body>
+    <div class="row">
+    	<div class="col">
+    		<h2>HIMANTA BISWA</h2>
+    		<h2>DEKA</h2>
+    		<h3>Head of</h3>
+    		<h2>Dk_BiNDass</h2>
+    		<div class="social-link">
+   			<a href="https://www.facebook.com/himanta.dk" target="_blanc"><i class="fa fa-facebook-official"></a></i>
+   			<a href="https://twitter.com/Himanta06649859?s=09" target="_blanc"><i class="fa fa-twitter"></a></i>
+   			<a href="https://www.instagram.com/dk_himanta/" target="_blanc"><i class="fa fa-instagram"></a></i>
+   		</div>
+   		<div class="mac">
+   			<h4>If you want to</h4>
+   			<h4>know me personally</h4>
+   			<div class="social-link">
+   			<i class="fa fa-whatsapp"></i>
+   		</div>
+   		    <h5>8638737851</h5>
+   		</div>
+    	</div>
+    	<div class="col">
+    		<img src="IMG20190812172703.jpg">
+    	</div>
+    </div>
+    <div class="mad">
+    	<h1><span>D</span>
+    	<span>K</span>
+    	<span>B</span>
+    	<span>I</span>
+    	<span>N</span>
+    	<span>D</span>
+    	<span>A</span>
+    	<span>A</span>
+    	<span>S</span></h1>
+    	<h4>countdown starts now...</h4>
+    </div>
+    <button><a href="index.html" target="_blanc">Back</a></button>
+</body>
+</html>
